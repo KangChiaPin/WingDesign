@@ -21,7 +21,6 @@ javascript google-Spreadsheet data API application
 ## Open
 2.	Add an example code if necessary (With a public-editable sheet)
 3.	Function of adding data to the sheet
-4.	How about let the parameter be url rather than key?
 
 ## Close
 1.	Test that if this program still work with current spreadsheet
