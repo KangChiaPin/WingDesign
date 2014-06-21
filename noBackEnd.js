@@ -25,12 +25,13 @@ function get_worksheets ( url ) {
 		error: function( state, err ){ alert( 'Make sure worksheet is published! ' + err ); },
 		success: function( xml ){ 
 			var rowsCounter = 0;
+			console.log(xml);
 			$( xml ).find('entry').each( function(){
-				var rows = [];
+				var rows = {};
 				var colCounter = 0;
 				$(this).children().each( function(){
 					var data = $(this);
-					if ( 0 == data[0].tagName.indexOf('gsx:') ) { rows[colCounter++] = data.text(); }
+					if ( 0 == data[0].tagName.indexOf('gsx:') ) { rows[data[0].tagName.substring(4)] = data.text(); }
 				});
 				result[rowsCounter++] = rows;
 			});
