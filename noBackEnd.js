@@ -25,7 +25,6 @@ function get_worksheets ( url ) {
 		error: function( state, err ){ alert( 'Make sure worksheet is published! ' + err ); },
 		success: function( xml ){ 
 			var rowsCounter = 0;
-			console.log(xml);
 			$( xml ).find('entry').each( function(){
 				var rows = {};
 				var colCounter = 0;

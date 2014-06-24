@@ -47,8 +47,8 @@ javascript google-Spreadsheet data API application
 	****Notice that if there are dulplex column names, the col_name of output will be modified as XXX, XXX_2, XXX_3, ... 
 		You can prevent this by setting an unique column name in a worksheet. 
 ## Open
-2.	Add an example code if necessary (With a public-editable sheet)
-3.	Function of adding data to the sheet
+2.  Try to use this program
+3.  Supporting new version google spreadsheet
 
 ## Close
 1.	Test that if this program still work with current spreadsheet
