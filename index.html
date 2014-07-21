@@ -1,8 +1,42 @@
 <!DOCTYPE>
 <head>
 	<script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>	
-	<script src ="noBackEnd.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src ="gss.js"></script>
+	<script src ="post.js"></script>
+	<script src ="main.js"></script>
+	<style type = "text/css">
+		.seg{
+			float:left;
+			display:inline;
+			width:200;
+			margin:10;
+		}
+		.title{
+			background-color:BE6100;	
+		}
+		.content{
+			background-color:FF9D37;
+		}
+	</style>
 </head>
 <body>
-	<div id ="container"></div>
+	<a href="https://dribbble.com/shots/1403332-Anubah-Dashboard">參考樣式</a>
+	<div id="frame">
+		<div id = "header">
+			<div id="member">
+			</div>
+		</div>
+		<div id = "sideBar">
+			<div>side bar</div>
+		</div>
+		<div id = "innerBody">
+			<div id = "record"></div>
+			<div class="seg" id = "chart">some chart</div>
+			<div id = "cal">calender</div>
+			<div id = "container"></div>
+		</div>
+		<div style = 'clear:both;'></div>
+		<div id = "footer"></div>
+	</div>
 </body>
