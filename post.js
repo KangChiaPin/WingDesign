@@ -16,8 +16,8 @@ function renderData(arr){
 		var div = document.createElement('div');
 		//console.log(div);
 		div.id = id;
-		div.className = 'seg';
-		div.innerHTML += "<div class=\"bar\"</div>"
+		div.className = 'col-md-4';
+		//div.innerHTML += "<div class=\"bar\"></div>"
 
 			for(var l in arr[k]){	
 			//	console.log("l:"+l);
@@ -25,7 +25,7 @@ function renderData(arr){
 				var content = arr[k][l].content;
 				//console.log(title+":"+content);
 				if(title=="name"){
-					div.innerHTML += "<div class=\"title\">" + content + "</div>" 
+					div.innerHTML += "<div class=\"bar\">" + content + "</div>" 
 				}	
 				if(title=="description"){
 					div.innerHTML += "<div class=\"content\">"+ content + "</div>";
