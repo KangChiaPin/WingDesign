@@ -5,12 +5,22 @@
 	border-radius:0 0 5px 5px;
 }
 
+.squat{
+	margin-top: 20px;
+}
+
 .seg{
 	float:left;
 	display:inline;
 	width:200;
 	margin:10;
 }
+
+.bar{
+	padding-left: 10px;
+	padding-right: 10px: 	
+}
+
 .title{
-	background-color:#BE6100;	
+		background-color:#BE6100;	
 }
