@@ -1,0 +1,16 @@
+.content{
+	background-color: transparent;
+	border: 1px solid;
+	padding: 10px;
+	border-radius:0 0 5px 5px;
+}
+
+.seg{
+	float:left;
+	display:inline;
+	width:200;
+	margin:10;
+}
+.title{
+	background-color:#BE6100;	
+}

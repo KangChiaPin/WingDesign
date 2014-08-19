@@ -1,4 +1,4 @@
-var DataKey = "0AsPefJI-LLcmdGtwc0ZRRmhWUG1USEZ3MWpJVEZZeHc";
+var DataKey = "0AsPefJI-LLcmdFpCSm53aVZ4OVE5cDgxZ2FqYUtlcnc";
 
 var gss = new gss(DataKey);
 
@@ -23,11 +23,11 @@ function renderData(arr){
 			//	console.log("l:"+l);
 				var title = arr[k][l].title;
 				var content = arr[k][l].content;
-				//console.log(title+":"+content);
-				if(title=="name"){
+				console.log(title+":"+content);
+				if(title=="title"){
 					div.innerHTML += "<div class=\"bar\">" + content + "</div>" 
 				}	
-				if(title=="description"){
+				if(title=="content"){
 					div.innerHTML += "<div class=\"content\">"+ content + "</div>";
 				}
 				document.getElementById("container").appendChild(div);	

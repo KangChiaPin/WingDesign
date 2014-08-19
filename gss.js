@@ -39,7 +39,7 @@ gss.prototype.get_docs = function() {
 	$.ajax({
 		url: "https://spreadsheets.google.com/feeds/worksheets/" + key + "/public/values", 
 		context: document.body, dataType: 'xml', async: false, cache: false,
-		error: function( state, err ){ alert( 'key is accessable! ' + err ); },
+		error: function( state, err ){ alert( 'key is accessible! ' + err ); },
 		success: function( xml ){ 
 			var worksheet = [];
 			var worksheetCounter = 0;
