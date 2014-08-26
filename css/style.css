@@ -24,3 +24,9 @@
 .title{
 		background-color:#BE6100;	
 }
+
+.bar{
+	height:20px;
+	background-color:black;
+	color:white;
+}
